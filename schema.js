@@ -1,12 +1,522 @@
-(function() {
-  if (window.location.pathname.indexOf('/urun/') === -1) return;
-  var p = {"el-terminalli-pc-mobil-destekli-kablosuz-fotoselli-kronometre-sistemi":{"n":"El Terminalli PC Mobil Destekli Kablosuz Fotoselli Kronometre","pr":"32000.00","i":"https://www.gamateknoloji.com/Images/Urun/b29062026093156.png","c":"Performans Olcum"},"fotoselli-kronometre-pc-2kapili":{"n":"Fotoselli Kronometre PC 2 Kapili","pr":"22629.42","i":"https://www.gamateknoloji.com/Images/Urun/b06042026075148.png","c":"Performans Olcum"},"fotoselli-kronometre-pc":{"n":"Fotoselli Kronometre PC","pr":"22862.71","i":"https://www.gamateknoloji.com/Images/Urun/b08112025075918.jpeg","c":"Performans Olcum"},"fotoselli-kronometre-cift-kapili":{"n":"Fotoselli Kronometre Cift Kapili","pr":"29161.63","i":"https://www.gamateknoloji.com/Images/Urun/b07062026033402.jpeg","c":"Performans Olcum"},"kronometre":{"n":"Kronometre","pr":"14400.00","i":"https://www.gamateknoloji.com/Images/Urun/b11062026100029.png","c":"Performans Olcum"},"ekonomik-kronometre":{"n":"Ekonomik Kronometre","pr":"9914.95","i":"https://www.gamateknoloji.com/Images/Urun/b12122025135839.png","c":"Performans Olcum"},"kronometre-mola-sayici":{"n":"Kronometre Mola Sayici","pr":"8550.00","i":"https://www.gamateknoloji.com/Images/Urun/b17122025191811.jpeg","c":"Performans Olcum"},"kronometre-cift-kulvarli":{"n":"Kronometre Cift Kulvarli","pr":"27000.00","i":"https://www.gamateknoloji.com/Images/Urun/b16012025112153.png","c":"Performans Olcum"},"dikey-sicrama-olcum-sensoru":{"n":"Dikey Sicrama Olcum Sensoru","pr":"11820.00","i":"https://www.gamateknoloji.com/Images/Urun/b11062026011912.png","c":"Performans Olcum"},"3x3-basketbol-skorbordu":{"n":"3x3 Basketbol Skorbordu","pr":"37793.47","i":"https://www.gamateknoloji.com/Images/Urun/b07112025215056.png","c":"Spor Skorbord"},"3x3-basketbol-skorbordu-12-sn":{"n":"3x3 Basketbol Skorbordu 12 Saniye","pr":"42832.59","i":"https://www.gamateknoloji.com/Images/Urun/b22082025211852.jpeg","c":"Spor Skorbord"},"3x3-basketbol-24sn":{"n":"3x3 Basketbol Skorbordu 24 Saniye","pr":"79319.62","i":"https://www.gamateknoloji.com/Images/Urun/b03062026132904.jpeg","c":"Spor Skorbord"},"okculuk-skorbordu":{"n":"Okculuk Skorbordu","pr":"45352.16","i":"https://www.gamateknoloji.com/Images/Urun/b27042026085707.png","c":"Spor Skorbord"},"hali-saha-skorbord-120x80cm":{"n":"Hali Saha Skorbord 120x80cm","pr":"29982.82","i":"https://www.gamateknoloji.com/Images/Urun/b07062026173325.png","c":"Spor Skorbord"},"hali-saha-skorbord-110x60cm":{"n":"Hali Saha Skorbord 110x60cm","pr":"22676.08","i":"https://www.gamateknoloji.com/Images/Urun/b24012025030755.jpeg","c":"Spor Skorbord"},"hali-saha-skorbord-130x60cm":{"n":"Hali Saha Skorbord 130x60cm","pr":"25699.56","i":"https://www.gamateknoloji.com/Images/Urun/b24012025025640.jpeg","c":"Spor Skorbord"},"hali-saha-skorbord-100x50cm":{"n":"Hali Saha Skorbord 100x50cm","pr":"19753.38","i":"https://www.gamateknoloji.com/Images/Urun/b24012025025544.jpeg","c":"Spor Skorbord"},"halisaha-skorbordu-160x80cm":{"n":"Halisaha Skorbordu 160x80cm","pr":"37326.88","i":"https://www.gamateknoloji.com/Images/Urun/b15122025100649.jpeg","c":"Spor Skorbord"},"hali-saha-skorbordu-200x130cm":{"n":"Hali Saha Skorbordu 200x130cm","pr":"52000.00","i":"https://www.gamateknoloji.com/Images/Urun/b17122025110828.png","c":"Spor Skorbord"},"ekonomik-halisaha-skorbordu":{"n":"Ekonomik Halisaha Skorbordu","pr":"15000.00","i":"https://www.gamateknoloji.com/Images/Urun/b04022026140448.jpeg","c":"Spor Skorbord"},"tasinabilir-kablosuz-futbol-skorbordu":{"n":"Tasinabilir Kablosuz Futbol Skorbordu","pr":"33600.00","i":"https://www.gamateknoloji.com/Images/Urun/b29032026150153.jpeg","c":"Spor Skorbord"},"futbol-skorbord-600x400cm":{"n":"Futbol Skorbord 600x400cm","pr":"230960.07","i":"https://www.gamateknoloji.com/Images/Urun/b07062026163115.jpeg","c":"Spor Skorbord"},"futbol-skorbord-400x150cm":{"n":"Futbol Skorbord 400x150cm","pr":"155139.85","i":"https://www.gamateknoloji.com/Images/Urun/b22062026082552.jpeg","c":"Spor Skorbord"},"futbol-skorbord-400x200cm":{"n":"Futbol Skorbord 400x200cm","pr":"175750.00","i":"https://www.gamateknoloji.com/Images/Urun/b12122025140644.png","c":"Spor Skorbord"},"futbol-skorbord-300x150cm":{"n":"Futbol Skorbord 300x150cm","pr":"124111.88","i":"https://www.gamateknoloji.com/Images/Urun/b07112025212407.png","c":"Spor Skorbord"},"futbol-skorbordu-4x2":{"n":"Futbol Skorbordu 4x2","pr":"159572.41","i":"https://www.gamateknoloji.com/Images/Urun/b12122025140207.png","c":"Spor Skorbord"},"tenis-skorbordu":{"n":"Tenis Skorbordu","pr":"27000.00","i":"https://www.gamateknoloji.com/Images/Urun/b24042026095926.jpeg","c":"Spor Skorbord"},"voleybol-skorbordu-70x50cm":{"n":"Voleybol Skorbordu 70x50cm","pr":"19850.00","i":"https://www.gamateknoloji.com/Images/Urun/b21052026103340.png","c":"Spor Skorbord"},"profesyonel-cok-amacli-spor-salonu-skorbordu-300x170cm":{"n":"Profesyonel Cok Amacli Spor Salonu Skorbordu 300x170cm","pr":"190000.00","i":"https://www.gamateknoloji.com/Images/Urun/b06042026092901.jpeg","c":"Spor Skorbord"},"profosyonel-basketbol-voleybol-hentbol-skorbordu":{"n":"Profesyonel Basketbol Voleybol Hentbol Skorbordu","pr":"134376.77","i":"https://www.gamateknoloji.com/Images/Urun/b29032026163007.jpeg","c":"Spor Skorbord"},"basketbol-voleybol-hentbol-skorbordu":{"n":"Basketbol Voleybol Hentbol Skorbordu","pr":"83985.48","i":"https://www.gamateknoloji.com/Images/Urun/b07112025210149.png","c":"Spor Skorbord"},"basketbol-skorbordu-hata-panolu":{"n":"Basketbol Skorbordu Hata Panolu","pr":"160000.00","i":"https://www.gamateknoloji.com/Images/Urun/b23012026123622.png","c":"Spor Skorbord"},"okul-tipi-skorbord":{"n":"Okul Tipi Skorbord","pr":"47591.77","i":"https://www.gamateknoloji.com/Images/Urun/b07112025193719.jpeg","c":"Spor Skorbord"},"masaustu-cift-yonlu-tasinabilir-skorbord":{"n":"Masaustu Cift Yonlu Tasinabilir Skorbord","pr":"12600.00","i":"https://www.gamateknoloji.com/Images/Urun/b15122025092606.jpeg","c":"Spor Skorbord"},"tasinabilir-cok-amacli-skorbord":{"n":"Tasinabilir Cok Amacli Skorbord","pr":"32400.00","i":"https://www.gamateknoloji.com/Images/Urun/b15122025090328.png","c":"Spor Skorbord"},"bilardo-skorbordu":{"n":"Bilardo Skorbordu","pr":"9600.00","i":"https://www.gamateknoloji.com/Images/Urun/b17122025191342.jpeg","c":"Spor Skorbord"},"oyuncu-degisikligi-tabelasi":{"n":"Oyuncu Degisikligi Panosu","pr":"30400.00","i":"https://www.gamateknoloji.com/Images/Urun/b07022026174048.jpeg","c":"Spor Skorbord"},"p3-91-rental-outdoor-led-ekran":{"n":"P3.91 Rental Outdoor LED Ekran","pr":"72787.42","i":"https://www.gamateknoloji.com/Images/Urun/b19052026193810.png","c":"Kurumsal LED"},"p5-rgb-96x96-cm-led-kabin":{"n":"P5 RGB 96x96cm LED Kabin","pr":"50391.29","i":"https://www.gamateknoloji.com/Images/Urun/b19052026193334.jpeg","c":"Kurumsal LED"},"led-ekran-urunleri":{"n":"LED Ekran Urunleri","pr":"55990.32","i":"https://www.gamateknoloji.com/Images/Urun/b19052026193137.jpeg","c":"Kurumsal LED"},"uretim-takip-panosu":{"n":"Uretim Takip Panosu","pr":"31800.00","i":"https://www.gamateknoloji.com/Images/Urun/b17122025190415.jpeg","c":"Endustriyel Pano"},"akaryakit-fiyat-panosu":{"n":"Akaryakit Fiyat Panosu","pr":"54000.00","i":"https://www.gamateknoloji.com/Images/Urun/b17122025185337.jpeg","c":"Endustriyel Pano"},"kazasiz-is-gunu-panosu":{"n":"Kazasiz Is Gunu Panosu","pr":"27000.00","i":"https://www.gamateknoloji.com/Images/Urun/b17122025183826.jpeg","c":"Endustriyel Pano"},"havuz-derece-ph-panosu":{"n":"Havuz Derece Ph Panosu","pr":"25920.00","i":"https://www.gamateknoloji.com/Images/Urun/b28122025013212.jpeg","c":"Endustriyel Pano"},"okul-sesli-uyari-panosu":{"n":"Okul Sesli Uyari Panosu","pr":"36000.00","i":"https://www.gamateknoloji.com/Images/Urun/b05032026102057.png","c":"Endustriyel Pano"}};
-  var cu = {"Performans Olcum":"https://www.gamateknoloji.com/kategori/performans-olcum-cihazlari","Spor Skorbord":"https://www.gamateknoloji.com/kategori/spor-skorbord-sistemleri","Kurumsal LED":"https://www.gamateknoloji.com/kategori/kurumsal-led-ekranlar","Endustriyel Pano":"https://www.gamateknoloji.com/kategori/endustriyel-bilgi-panolari"};
-  var path = window.location.pathname;
-  var slug = path.replace('/urun/','').replace(/\/$/,'');
-  var pr = p[slug];
-  if (!pr) return;
-  function addSchema(data) {var s=document.createElement('script');s.type='application/ld+json';s.text=JSON.stringify(data);document.head.appendChild(s);}
-  addSchema({"@context":"https://schema.org","@type":"Product","name":pr.n,"image":pr.i,"category":pr.c,"brand":{"@type":"Brand","name":"GAMATEK"},"manufacturer":{"@type":"Organization","name":"Gama Teknoloji","url":"https://www.gamateknoloji.com"},"url":"https://www.gamateknoloji.com"+path,"offers":{"@type":"Offer","priceCurrency":"TRY","price":pr.pr,"availability":"https://schema.org/InStock","seller":{"@type":"Organization","name":"Gama Teknoloji"}}});
-  addSchema({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://www.gamateknoloji.com"},{"@type":"ListItem","position":2,"name":pr.c,"item":cu[pr.c]},{"@type":"ListItem","position":3,"name":pr.n,"item":"https://www.gamateknoloji.com"+path}]});
+(function () {
+  "use strict";
+
+  const BASE = "https://www.gamateknoloji.com";
+  const ORG_ID = BASE + "/#organization";
+  const WEBSITE_ID = BASE + "/#website";
+  const SCRIPT_ID = "gama-schema-body";
+
+  function normalizePath(pathname) {
+    const p = String(pathname || "/").replace(/\/+$/, "");
+    return p || "/";
+  }
+
+  function absoluteUrl(value) {
+    if (!value) return "";
+    try {
+      return new URL(value, BASE).href;
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function metaContent(selector) {
+    const element = document.querySelector(selector);
+    return element ? String(element.getAttribute("content") || "").trim() : "";
+  }
+
+  function canonicalUrl() {
+    const canonical = document.querySelector('link[rel="canonical"]');
+    return absoluteUrl(canonical ? canonical.getAttribute("href") : window.location.href);
+  }
+
+  function pageTitle() {
+    const heading = document.querySelector("h1");
+    const raw =
+      (heading && heading.textContent.trim()) ||
+      metaContent('meta[property="og:title"]') ||
+      document.title ||
+      "";
+    return raw.replace(/\s*[-–|]\s*Gama Teknoloji\s*$/i, "").trim();
+  }
+
+  function pageDescription() {
+    const element = document.querySelector(
+      '[itemprop="description"], .urun-aciklama, .product-description, ' +
+      '.blog-content p, article p, main p'
+    );
+    const raw =
+      (element && element.textContent.trim()) ||
+      metaContent('meta[name="description"]') ||
+      metaContent('meta[property="og:description"]') ||
+      "";
+    return raw.replace(/\s+/g, " ").trim();
+  }
+
+  function representativeImage() {
+    const candidates = [
+      metaContent('meta[property="og:image"]'),
+      metaContent('meta[name="twitter:image"]')
+    ];
+
+    const element = document.querySelector(
+      '[itemprop="image"][content], [itemprop="image"][src], ' +
+      '.urun-detay img[src], .product-detail img[src], article img[src], main img[src]'
+    );
+
+    if (element) {
+      candidates.push(
+        element.getAttribute("content") ||
+        element.getAttribute("src") ||
+        ""
+      );
+    }
+
+    for (const candidate of candidates) {
+      const url = absoluteUrl(candidate);
+      if (
+        url &&
+        !/\/Images\/Firma\/ust_logo\.png(?:\?|$)/i.test(url) &&
+        !/\/img\/logo\.png(?:\?|$)/i.test(url) &&
+        /\.(?:jpe?g|png|webp|gif|avif)(?:\?|$)/i.test(url)
+      ) {
+        return url;
+      }
+    }
+    return "";
+  }
+
+  function addJsonLd(data) {
+    const old = document.getElementById(SCRIPT_ID);
+    if (old) old.remove();
+
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = SCRIPT_ID;
+    script.textContent = JSON.stringify(data);
+    document.head.appendChild(script);
+  }
+
+  function containsType(value, type) {
+    return Array.isArray(value) ? value.includes(type) : value === type;
+  }
+
+  /*
+   * Önceden bütün sayfalara eklenen sabit Product bloklarını temizler.
+   * Head alanındaki @id içeren Organization / LocalBusiness / WebSite koduna dokunmaz.
+   */
+  function cleanupLegacyProductSchemas() {
+    const oldProductUrls = new Set([
+      BASE + "/urun/fotoselli-kronometre-cift-kapili",
+      BASE + "/urun/profesyonel-cok-amacli-spor-salonu-skorbordu-300x170cm",
+      BASE + "/urun/futbol-skorbord-400x200cm"
+    ]);
+
+    document
+      .querySelectorAll('script[type="application/ld+json"]')
+      .forEach(function (script) {
+        if (script.id === SCRIPT_ID || script.id === "gama-schema-faq") return;
+
+        let data;
+        try {
+          data = JSON.parse(script.textContent);
+        } catch (error) {
+          return;
+        }
+
+        const nodes =
+          data && Array.isArray(data["@graph"]) ? data["@graph"] : [data];
+
+        const isOldFixedProduct = nodes.some(function (node) {
+          if (!node || typeof node !== "object") return false;
+          if (!containsType(node["@type"], "Product")) return false;
+
+          const url = String(node.url || "").replace(/\/+$/, "");
+          return oldProductUrls.has(url);
+        });
+
+        const isOldCatalog = nodes.some(function (node) {
+          return Boolean(
+            node &&
+            typeof node === "object" &&
+            node.name === "Gama Teknoloji" &&
+            node.hasOfferCatalog
+          );
+        });
+
+        if (isOldFixedProduct || isOldCatalog) script.remove();
+      });
+  }
+
+  function breadcrumbNode(items) {
+    return {
+      "@type": "BreadcrumbList",
+      "@id": canonicalUrl() + "#breadcrumb",
+      "itemListElement": items.map(function (item, index) {
+        const node = {
+          "@type": "ListItem",
+          "position": index + 1,
+          "name": item.name
+        };
+        const itemUrl = absoluteUrl(item.url);
+        if (itemUrl) node.item = itemUrl;
+        return node;
+      })
+    };
+  }
+
+  function parsePrice(raw) {
+    if (!raw) return "";
+
+    let value = String(raw).replace(/[^0-9.,]/g, "").trim();
+    if (!value) return "";
+
+    if (value.includes(",") && value.includes(".")) {
+      if (value.lastIndexOf(",") > value.lastIndexOf(".")) {
+        value = value.replace(/\./g, "").replace(",", ".");
+      } else {
+        value = value.replace(/,/g, "");
+      }
+    } else if (value.includes(",")) {
+      const parts = value.split(",");
+      value =
+        parts.length === 2 && parts[1].length <= 2
+          ? parts[0].replace(/\./g, "") + "." + parts[1]
+          : value.replace(/,/g, "");
+    } else if ((value.match(/\./g) || []).length > 1) {
+      value = value.replace(/\./g, "");
+    } else if (/^\d{1,3}\.\d{3}$/.test(value)) {
+      value = value.replace(".", "");
+    }
+
+    const number = Number(value);
+    return Number.isFinite(number) && number > 0 ? String(number) : "";
+  }
+
+  function extractedPrice() {
+    const candidates = [
+      metaContent('meta[property="product:price:amount"]'),
+      metaContent('meta[itemprop="price"]')
+    ];
+
+    const selectors = [
+      '[itemprop="price"][content]',
+      '[itemprop="price"]',
+      '[data-price]',
+      '.urun-fiyat',
+      '.urun-detay-fiyat',
+      '.product-price',
+      '.new-price',
+      '.price',
+      '.fiyat'
+    ];
+
+    selectors.forEach(function (selector) {
+      const element = document.querySelector(selector);
+      if (element) {
+        candidates.push(
+          element.getAttribute("content") ||
+          element.getAttribute("data-price") ||
+          element.textContent ||
+          ""
+        );
+      }
+    });
+
+    for (const candidate of candidates) {
+      const price = parsePrice(candidate);
+      if (price) return price;
+    }
+    return "";
+  }
+
+  function extractedSku() {
+    const candidates = [
+      metaContent('meta[property="product:retailer_item_id"]'),
+      metaContent('meta[itemprop="sku"]')
+    ];
+
+    const element = document.querySelector('[itemprop="sku"], [data-sku]');
+    if (element) {
+      candidates.push(
+        element.getAttribute("content") ||
+        element.getAttribute("data-sku") ||
+        element.textContent ||
+        ""
+      );
+    }
+
+    return (
+      candidates
+        .map(function (value) {
+          return String(value || "").trim();
+        })
+        .find(Boolean) || ""
+    );
+  }
+
+  function visibleCategory() {
+    const currentPath = normalizePath(window.location.pathname);
+    const links = Array.from(
+      document.querySelectorAll(
+        '.breadcrumb a, .breadcrumbs a, nav[aria-label*="breadcrumb" i] a, [class*="bread"] a'
+      )
+    ).filter(function (link) {
+      try {
+        return normalizePath(new URL(link.href, BASE).pathname) !== currentPath;
+      } catch (error) {
+        return false;
+      }
+    });
+
+    const item = links.length ? links[links.length - 1] : null;
+    return item
+      ? { name: item.textContent.trim(), url: item.href }
+      : null;
+  }
+
+  function availabilityUrl() {
+    const meta = metaContent('meta[property="product:availability"]');
+
+    if (/out.of.stock|stokta.yok/i.test(meta)) {
+      return "https://schema.org/OutOfStock";
+    }
+    if (/in.stock|stokta/i.test(meta)) {
+      return "https://schema.org/InStock";
+    }
+
+    const text = (document.body.innerText || "").toLocaleLowerCase("tr-TR");
+    if (/stokta\s*yok|tükendi|satışa\s*kapalı/.test(text)) {
+      return "https://schema.org/OutOfStock";
+    }
+    if (/stokta|sepete\s*ekle|satın\s*al/.test(text)) {
+      return "https://schema.org/InStock";
+    }
+
+    return "";
+  }
+
+  const PRODUCT_DETAILS = {
+    "/urun/fotoselli-kronometre-cift-kapili": {
+      alternateName: "GAMATEK Çift Kapılı Fotoselli Kronometre",
+      sku: "GMTEK-FKC-001",
+      category: {
+        name: "Performans Ölçüm Cihazları ve Kronometreler",
+        url: BASE + "/kategori/performans-olcum-cihazlari-ve-kronometreler"
+      },
+      properties: [
+        ["Hassasiyet", "0,01 saniye"],
+        ["Kablosuz Menzil", "200 metre"],
+        ["Üretim Yeri", "Antalya, Türkiye"],
+        ["Garanti", "2 yıl"]
+      ]
+    },
+    "/urun/profesyonel-cok-amacli-spor-salonu-skorbordu-300x170cm": {
+      alternateName: "GAMATEK 5 Branşlı Profesyonel Skorbord",
+      sku: "GMTEK-PSK-300170",
+      category: {
+        name: "Skorbord Sistemleri",
+        url: BASE + "/kategori/skorbord-sistemleri"
+      },
+      properties: [
+        ["Boyut", "300x170 cm"],
+        ["Rakam Yüksekliği", "30 cm"],
+        ["Desteklenen Branşlar", "Basketbol, Voleybol, Hentbol, Tenis, Güreş"],
+        ["Garanti", "2 yıl"]
+      ]
+    },
+    "/urun/futbol-skorbord-400x200cm": {
+      alternateName: "GAMATEK Stadyum Futbol Skorbordu",
+      sku: "GMTEK-FSK-400200",
+      category: {
+        name: "Futbol Skorbordları",
+        url: BASE + "/kategori/futbol-skorbordlari"
+      },
+      properties: [
+        ["Boyut", "400x200 cm"],
+        ["Koruma Sınıfı", "IP65"],
+        ["Görünürlük Mesafesi", "200-250 metre"],
+        ["Garanti", "2 yıl"]
+      ]
+    }
+  };
+
+  function productNode(path) {
+    const details = PRODUCT_DETAILS[path] || null;
+    const name = pageTitle();
+    const description = pageDescription();
+    const image = representativeImage();
+    const price = extractedPrice();
+    const sku = (details && details.sku) || extractedSku();
+    const category = (details && details.category) || visibleCategory();
+
+    /*
+     * Yanlış ürün verisi üretmemek için ad, açıklama, gerçek ürün görseli
+     * veya görünür fiyat okunamazsa Product oluşturulmaz.
+     */
+    if (!name || !description || !image || !price) return null;
+
+    const offer = {
+      "@type": "Offer",
+      "url": canonicalUrl(),
+      "priceCurrency": "TRY",
+      "price": price,
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": { "@id": ORG_ID }
+    };
+
+    const availability = availabilityUrl();
+    if (availability) offer.availability = availability;
+
+    const product = {
+      "@type": "Product",
+      "@id": canonicalUrl() + "#product",
+      "name": name,
+      "description": description,
+      "url": canonicalUrl(),
+      "image": [image],
+      "brand": {
+        "@type": "Brand",
+        "name": "GAMATEK"
+      },
+      "manufacturer": { "@id": ORG_ID },
+      "countryOfOrigin": {
+        "@type": "Country",
+        "name": "Türkiye"
+      },
+      "offers": offer
+    };
+
+    if (details && details.alternateName) {
+      product.alternateName = details.alternateName;
+    }
+    if (sku) product.sku = sku;
+    if (category && category.name) product.category = category.name;
+
+    if (details && details.properties) {
+      product.additionalProperty = details.properties.map(function (property) {
+        return {
+          "@type": "PropertyValue",
+          "name": property[0],
+          "value": property[1]
+        };
+      });
+    }
+
+    return product;
+  }
+
+  function findPublishedDate() {
+    const meta =
+      metaContent('meta[property="article:published_time"]') ||
+      metaContent('meta[name="date"]');
+
+    if (meta) return meta;
+
+    const time = document.querySelector("time[datetime]");
+    if (time) return time.getAttribute("datetime");
+
+    const match = (document.body.innerText || "").match(
+      /\b(\d{2})\.(\d{2})\.(\d{4})\b/
+    );
+
+    return match
+      ? match[3] + "-" + match[2] + "-" + match[1]
+      : "";
+  }
+
+  function blogPostingNode() {
+    const node = {
+      "@type": "BlogPosting",
+      "@id": canonicalUrl() + "#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": canonicalUrl()
+      },
+      "headline": pageTitle(),
+      "description": pageDescription(),
+      "url": canonicalUrl(),
+      "author": { "@id": ORG_ID },
+      "publisher": { "@id": ORG_ID },
+      "isPartOf": { "@id": WEBSITE_ID },
+      "inLanguage": "tr-TR"
+    };
+
+    const image = representativeImage();
+    if (image) node.image = [image];
+
+    const published = findPublishedDate();
+    if (published) node.datePublished = published;
+
+    const modified = metaContent('meta[property="article:modified_time"]');
+    if (modified) node.dateModified = modified;
+
+    return node;
+  }
+
+  function run() {
+    cleanupLegacyProductSchemas();
+
+    const path = normalizePath(window.location.pathname);
+    const graph = [];
+
+    if (path === "/sayfa/hakkimizda") {
+      graph.push(
+        breadcrumbNode([
+          { name: "Ana Sayfa", url: BASE + "/" },
+          { name: "Hakkımızda", url: canonicalUrl() }
+        ])
+      );
+    } else if (/^\/urun\//.test(path)) {
+      const product = productNode(path);
+      const category =
+        (PRODUCT_DETAILS[path] && PRODUCT_DETAILS[path].category) ||
+        visibleCategory();
+
+      const crumbs = [{ name: "Ana Sayfa", url: BASE + "/" }];
+      if (category && category.name && category.url) crumbs.push(category);
+      crumbs.push({ name: pageTitle(), url: canonicalUrl() });
+
+      if (product) graph.push(product);
+      graph.push(breadcrumbNode(crumbs));
+    } else if (/^\/kategori\//.test(path)) {
+      graph.push(
+        {
+          "@type": "CollectionPage",
+          "@id": canonicalUrl() + "#collection",
+          "url": canonicalUrl(),
+          "name": pageTitle(),
+          "description": pageDescription(),
+          "isPartOf": { "@id": WEBSITE_ID },
+          "inLanguage": "tr-TR"
+        },
+        breadcrumbNode([
+          { name: "Ana Sayfa", url: BASE + "/" },
+          { name: pageTitle(), url: canonicalUrl() }
+        ])
+      );
+    } else if (/^\/blog\//.test(path) && path !== "/blog") {
+      graph.push(
+        blogPostingNode(),
+        breadcrumbNode([
+          { name: "Ana Sayfa", url: BASE + "/" },
+          { name: "Blog", url: BASE + "/blog" },
+          { name: pageTitle(), url: canonicalUrl() }
+        ])
+      );
+    }
+
+    if (graph.length) {
+      addJsonLd({
+        "@context": "https://schema.org",
+        "@graph": graph
+      });
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", run, { once: true });
+  } else {
+    run();
+  }
 })();
